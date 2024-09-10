@@ -121,7 +121,7 @@ header nav ul li a:hover {
 
 .product-card {
     height: fit-content;
-    background-color: #171313;
+    background-color: #060505;
     text-align: center;
     box-shadow: 1px 1px 4px 1px #e64a19;
     padding: 20px;
@@ -208,6 +208,7 @@ header nav ul li a:hover {
 
 .mission-text > p{
     color: white;
+    font-size: 18px;
 }
 
 .mission-image img {
@@ -218,22 +219,28 @@ header nav ul li a:hover {
 }
 
 /* Contact Section */
+
 .contact {
     padding: 50px 0;
-    background-color: #fff;
+    background-color: black;
+    height: 550px;
 }
 
-.contact h2 {
+.contact  h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 2rem;
+    color: white;
+    margin-top: 50px;
 }
+
 
 .contact form {
-    max-width: 600px;
+    width: 30%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .contact form input,
@@ -264,5 +271,10 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    
+}
+
+footer p{
+    padding: 2vw;
+   
 }
